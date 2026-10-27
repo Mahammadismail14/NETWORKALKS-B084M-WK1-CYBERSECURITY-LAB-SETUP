@@ -32,7 +32,7 @@ I built an isolated virtual pentesting lab on my laptop using VirtualBox and Kal
 
 **1. Installed VirtualBox**
 Downloaded from virtualbox.org and set it up as the hypervisor.
-![VIRTUALBOX SETUP]_(1-screenshot-virtualbox-setup.png)
+![VirtualBox](1-screenshot-virtualbox-setup.png)
 
 **2. Created a NAT Network**
 Set up a private NAT Network (`10.0.2.0/24`) so future VMs can talk to each other inside the lab.
@@ -58,7 +58,7 @@ sudo nmcli con up "Wired connection 1"
 **5. Took a Clean Snapshot**
 Saved a baseline snapshot before doing anything else — so I can restore anytime.
 
-![VirtualBox](1-virtualbox-setup.png)
+![VirtualBox](1-screenshot-virtualbox-setup.png)
 
 ---
 
