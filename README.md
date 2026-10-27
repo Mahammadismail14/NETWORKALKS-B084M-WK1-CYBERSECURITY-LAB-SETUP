@@ -32,16 +32,17 @@ I built an isolated virtual pentesting lab on my laptop using VirtualBox and Kal
 
 **1. Installed VirtualBox**
 Downloaded from virtualbox.org and set it up as the hypervisor.
+![VIRTUALBOX SETUP]_(1-screenshot-virtualbox-setup.png)
 
 **2. Created a NAT Network**
 Set up a private NAT Network (`10.0.2.0/24`) so future VMs can talk to each other inside the lab.
 
-![NAT Network](2-nat-network.png)
+![NAT Network](2-screenshot-nat-network.png)
 
 **3. Imported Kali Linux**
 Downloaded the official Kali VM and imported it into VirtualBox.
 
-![Kali Imported](3-screenshot.png)
+![Kali Imported](3-screenshot-kali-imported.png)
 
 **4. Set Static IP**
 ```bash
@@ -52,7 +53,7 @@ sudo nmcli con mod "Wired connection 1" \
   ipv4.method manual
 sudo nmcli con up "Wired connection 1"
 ```
-![Network Config](4-network-config.png)
+![Network Config](4-screenshot-network.png)
 
 **5. Took a Clean Snapshot**
 Saved a baseline snapshot before doing anything else — so I can restore anytime.
