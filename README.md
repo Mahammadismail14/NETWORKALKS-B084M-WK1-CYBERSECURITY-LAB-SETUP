@@ -8,7 +8,8 @@ My Cybersecurity Lab Setup
 
 ## 📌 What is this project?
 
-I built an isolated virtual pentesting lab on my laptop using VirtualBox and Kali Linux. The goal was to create a safe environment where I can practice hacking tools and techniques without affecting my real machine or network.
+I built an isolated virtual pentesting lab on my laptop using VirtualBox and Kali Linux. The goal was to create a safe environment where I can practice hacking
+tools and techniques without affecting my real machine or network.
 
 ---
 
